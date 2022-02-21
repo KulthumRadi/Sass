@@ -1,0 +1,56 @@
+.navBar {
+    background: $primary-color;
+  }
+
+  .adds {
+    width: 18%;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 20px auto;
+    background-color: white;
+    transform: "translate(-50%, -50%)",
+    
+  }
+  .adds h3,
+  h2,
+  h5 {
+    padding: 5px 0;
+    margin: 10px;
+  }
+  
+  .adds {
+    h3 {
+      font-size: 20px;
+      color: $highlight-color;
+    }
+    img {
+      padding-top: 10%;
+      border-radius: 50%;
+      width: 50%;
+      height: 50%;
+    }
+    h5 {
+      font-size: 16px;
+      color: $grayFont-color;
+      border-bottom: 1px solid $grayFont-color;
+    }
+    h2 {
+      font-size: 20px;
+     }
+     h4{
+      font-size: 16px;
+      color: $grayFont-color; 
+     }
+  }
+  .half{
+    width: 50%;
+    border-radius: 2px;
+    margin: 20px auto;
+    background-color: $white-color;
+    transform: "translate(-50%, -50%)";
+    
+  }
